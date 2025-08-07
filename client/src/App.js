@@ -111,6 +111,7 @@ function App() {
             Number of requests:
             <input
               type="number"
+              id="request-count"
               value={requestCount}
               onChange={(e) => setRequestCount(parseInt(e.target.value, 10))}
               disabled={sending}
